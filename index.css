@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap');
+
+.App{
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://wallpapercave.com/wp/wp4511735.jpg);
+  background-position: center;
+}
+
+.city{
+  display: flex;
+  justify-content: center;
+}
+.temp{
+  display: flex;
+  justify-content: space-around;
+}
+.condition{
+  display: flex;
+  justify-content: center;
+  margin-top: 0.6rem;
+}
+.bottom{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+h5{
+  display: flex;
+  justify-content:center;
+  margin-top: 9.4rem;
+}
+.wind{
+  line-height: 0.5rem;
+  font-family:cursive;
+  font-size:small;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-radius: 1rem;
+}
+.humidity{
+  line-height: 0.5rem;
+  font-family:cursive;
+  font-size: small;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-radius: 1rem;
+  
+}
+.clouds{
+  line-height: 0.5rem;
+  font-family:cursive;
+  font-size: small;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+
+  border-radius: 1rem;
+
+}
+.search{
+  display: flex;
+  justify-content: center;
+  /* position: relative; */
+  padding-top: 1rem;
+
+}
+input{
+  background-color: transparent;
+  border-color: cornsilk;
+  border-radius: 1.5rem;
+  color:aliceblue;
+  height: 2.5rem;
+  margin-top: 0.5rem;
+
+
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
